@@ -57,14 +57,24 @@ body{
 }
 .secondary-menu .menu li a{
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 700;
 }
 .login{
     color: black;
+}
+.login:hover{
+    color: #4F5665;
 }
 .signup{
     background-color: #ffba33; 
     padding: 10px 25px;
     color: #6A4029;
-    border-radius: 100px;
+    width: 150px;
+    background: #FFBA33;
+    border-radius: 50px;
+}
+.signup:hover{
+    background-color: #6A4029;
+    color: white;
+    cursor: pointer;
 }

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Rubik';
+}
+
+.navbar{
+    width: 100%;
+    box-shadow: 1px 1px 10px #cccccc;
+    display: flex;
+}
+.logo{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.logo h1{
+    font-size: 20px;
+    margin-left: 10px;
+    
+}
+.primary-menu {
+    width: 40%;
+    display: flex;
+    justify-content: center; 
+}
+.primary-menu .menu{
+    display: flex;
+    list-style-type: none;
+}
+.primary-menu .menu li{
+    margin: 25px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #4F5665;
+    cursor: pointer;
+}
+.primary-menu .menu li:hover {
+    color: #6A4029;
+    font-weight: 700;
+}
+.secondary-menu {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+.secondary-menu .menu{
+    display: flex;
+    list-style-type: none;
+}
+.secondary-menu .menu li {
+    margin: 20px;
+    font-size: 10px;
+    cursor: pointer;
+   
+}
+
+.s{
+    margin: 10px auto;
+    background: white;
+    color: black;
+    font-size: 17px;
+    border: none;
+    margin: 30px;
+    padding-right: 20px;
+    width: 178px;
+    height: 34px;
+    background: #EFEEEE;
+    border-radius: 30px;
+    font-weight: bold;  
+}
+form img{
+    float: left;
+    margin-top: 9px;
+    margin-left: 20px;
+   
+}
+
+input {
+    display: flex;
+    float: right;
+    border: none;
+    background: transparent;
+    margin-top: 8px;
+    width: 70%;
+    font-size: 15px;
+    outline: 0;
+}
+
+
+.gmbr{
+top: 10px;
+margin-right: 20px;
+}
+.gambar{
+    border-radius: 100%;
+}

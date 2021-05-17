@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+main{
+    display: flex;
+    background-image: url('/img/background.png');
+}
+
+aside{
+    width: 50%;
+    height: 1100px;
+    background-color: aqua;
+    background-image: url('img/background.png');
+}
+
+
+section{
+    width: 50%;
+    margin-top: 50px;
+}
+
+/* navbar */
+.navbars{
+    font-family: 'Rubik';
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+
+.logos{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.logos h1{
+    font-size: 20px;
+    margin-left: 10px;
+    
+}
+
+.secondary-menus {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    display: flex;
+    list-style-type: none;
+    margin: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+.secondary-menus a{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.login-nav{
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    cursor: pointer; 
+    width: 150px;
+    height: 45px;
+    background: #FFBA33;
+    border-radius: 50px;    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #6A4029;
+}
+
+.login-nav:hover{
+    background-color: #6A4029;
+    color: white;
+}
+
+
+
+/* signup */
+.kotak_signup{
+    font-family: 'Rubik';
+    width: 505px;
+    height: 75px;
+    background: white;
+    margin: 80px auto;
+    padding: 30px 20px;
+    display: grid;
+    grid-template-areas: "atas"
+                         "bawah";
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+form{
+    grid-area: atas;
+}
+
+form h1{
+    text-align: center;
+    height: 41px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    color: #6A4029;
+    padding-bottom: 90px;
+    margin-top: -50px;
+
+}
+.kotak_signup label{
+    font-size: 20px;
+    color:#4F5665;
+    font-weight: bold;
+}
+
+
+.form_login{
+    font-family: 'Rubik';
+    box-sizing : border-box;
+    border: 1px solid #4F5665;
+    width: 505px;
+    height: 75px;
+    padding: 10px 50px;
+    font-size: 26px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    outline: 0;
+}
+
+::-webkit-input-placeholder{
+    position: absolute;
+    color: #9F9F9F;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.tombol{
+    grid-area: bawah;
+}
+
+.tombol h3{
+
+width: 232px;
+height: 25px;
+
+
+font-family: Rubik;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+text-decoration-line: underline;
+
+color: #9F9F9F;
+
+}
+.tombol h3:hover{
+    color: #6A4029;
+}
+.signup{
+    margin: 10px auto;
+    background: #FFBA33;
+    box-shadow: 0px 6px 20px rgba(196, 196, 196, 0.67);
+    border-radius: 20px;
+    color: #6A4029;
+    font-size: 20px;
+    font-weight: bold;
+    width: 505px;
+    height: 75px;
+    border: none;
+    cursor: pointer;        
+}
+
+.signup:hover{
+    background-color: #6A4029;
+    color: white;
+}
+
+.google{
+    margin: 10px auto;
+    background: white;
+    color: black;
+    font-size: 17px;
+    border: none;
+    margin: 30px auto;
+    width: 505px;
+    height: 75px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 6px 20px rgba(196, 196, 196, 0.67);
+    font-weight: bold;
+    cursor: pointer;   
+}
+
+.google:hover{
+    background-color: rgba(196, 196, 196, 0.67);
+}
+
+.google img{
+    width: 6%;
+    float: center;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 0px;
+   
+}
+
+.google .tulisan{
+    margin: 25px;
+    margin-right: 90px;
+    margin-left: 0px;
+    display: flex;
+    float: right;
+    width: 50%;
+    font-size: 20px;
+}
+
+.ready{
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    color: #9F9F9F;
+    cursor: pointer;
+    align-items: center;
+}
+
+.login{ 
+    margin: 10px auto;
+    margin-bottom: 50px;
+    background: #6A4029;
+    color: white;
+    font-size: 20px;
+    width: 505px;
+    height: 75px;
+    border: none;
+    border-radius: 20px;
+    padding: 23px 30px;
+    box-shadow: 0px 6px 20px rgba(196, 196, 196, 0.67);
+    font-weight: bold;
+    cursor: pointer;   
+}
+
+
+
+
+
+
+
+

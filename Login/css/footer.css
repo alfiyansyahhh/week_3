@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+footer{
+    display:flex;
+    background: #F8F8F8;
+    margin: 0;
+}
+
+.kiri{
+    width: 50%;
+    margin: 90px;
+}
+.logo{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.logo h1{
+    font-size: 20px;
+    margin-left: 10px;
+    
+}
+.kiri .sosmed {
+    display: flex;
+    width: 50%;
+    
+}
+
+.kiri .sosmed .icon-sosmed {
+    padding-left: 15px;
+    margin: 20px;
+    width: 10px;
+}
+ .sosmed .icon-sosmed:hover {
+    color: #0B132A;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.kiri .ket-footer{
+    width: 40%;
+    justify-content: center;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    margin-left: 40px;
+}
+
+.kanan{
+    width: 50%;
+    margin: 20px; 
+}
+
+.kanan .footer-kanan{
+    display: flex;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 50px;
+    color: #4F5665;
+}
+
+.kanan .footer-kanan .icon-kanan{
+    margin: 90px;
+}
+
+.icon-kanan li{
+    list-style-type: none;
+}
+
+.icon-kanan li:hover {
+    color: #0B132A;
+    font-weight: 700;
+    cursor: pointer;
+}
+

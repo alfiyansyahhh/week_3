@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+main{
+    display: flex;
+}
+
+aside {
+    width: 30%;
+    border-right: 0.5px solid #9F9F9F;
+}
+
+.card-nav1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 25px; 
+    display: flex;
+    flex-direction: column;    
+}
+.card-nav1 h1{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #6A4029;
+    text-align: center;
+}
+.card-nav1 p{
+    width: 390px;
+    margin: 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+
+}
+.card-nav2{
+    padding: 100px;  
+    margin-left: 20px;
+    margin-top: -130px;  
+}
+
+.tombol{
+    margin: 70px;
+    padding-left: 0px;
+    padding-top: 80px;
+    margin-left: 170px;
+    display: grid;
+    grid-template-columns: 450px;
+    grid-template-rows: 120px 120px 120px 200px;
+    justify-content: center;
+}
+
+.cupon{
+    display: grid;
+    grid-template-areas: "gambar h1"
+                         "gambar p";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    width: 335px;
+    height: 109px;
+    background-color: #88B788;
+    border: none;
+    cursor: pointer;           
+    padding: 10px 10px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+.cupon img{
+    grid-area: gambar;
+    margin-left: 10px;
+}
+
+.cupon h1{
+    grid-area: h1;
+    margin-left: -100px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.cupon p{
+    grid-area: p;
+    margin-top: -15px;
+    margin-left: -50px;
+    width: 150px;
+    font-weight: normal;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.apply{
+    width: 335px;
+    height: 64px;
+    background: #6A4029;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    align-items: center; 
+}
+.apply h1{
+    color: white;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+
+
+#orange{
+    background-color: #F5C361;
+}
+
+#coklat{
+    background-color: #C59378;;
+}
+
+.card-nav3{
+    margin-top: -50px;
+    margin-left: 90px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: #4F5665;
+
+}
+
+.card-nav3 strong{
+    margin-left: 25px;
+}
+
+.content {
+    width: 70%;
+}
+
+.card-main{
+    margin: 0;
+    padding: 0;
+}
+.right{
+    display: grid; 
+    grid-template-areas: "1"
+                         "2";
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1.5fr;
+}
+
+/* CARD 1 */
+.card-main1{
+    grid-area: 1;    
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center; 
+    padding-left:0px;
+   
+}
+
+.nav-menu .menu{
+    display: flex;
+    justify-content: center;  
+    list-style-type: none;
+    padding-left:0px;
+    
+}
+.nav-menu .menu li{
+    margin: 30px;
+    font-family: Rubik;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 23.7px;
+    color: #9F9F9F;
+    cursor: pointer;
+}
+.nav-menu .menu li:hover {
+    color: #6A4029;
+    font-weight: 700;
+
+}
+
+/* CARD 2 */
+.card-main2{
+    grid-area: 2;
+    padding: 171.5px; 
+    
+}
+
+.produk {
+    display: grid;
+    grid-template-columns: 220px 220px 220px 220px;
+    grid-template-rows: 350px 350px 350px;
+    justify-content: center;
+}
+
+.item{
+    display: grid;
+    grid-template-areas: "gambar"
+                         "nama-menu harga";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: -60px;
+    margin-bottom: 0px;
+    width: 156px;
+    height: 212.41px;
+    background-color: white;
+    box-shadow: 0px 30px 60px rgba(57, 57, 57, 0.1);            
+    padding: 10px 10px;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.img{
+    grid-area: gambar;
+    margin: -80px 100px;
+    border-radius: 100px;
+}
+
+.item h1{
+    grid-area: nama-menu;
+    margin: 60px 90px;
+    padding: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 27px;
+    text-align: center;
+    line-height: 101.34%;
+}
+
+.item p{
+    grid-area: harga;
+    margin: 180px auto;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 25px;
+    text-align: center;
+    color: #6A4029;
+}
+
+.keterangan{
+    width: 408px;
+    height: 26px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+    color: #6A4029;
+    margin-left: 30px;
+    margin-top: -130px;
+    padding-bottom: -900px;
+}
