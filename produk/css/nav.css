@@ -1,5 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@media screen and (max-width: 576px){
+    /* navbar */
+    nav{
+         flex-direction: column;
+     }  
+     .logo{
+         text-align: flex-start;
+         align-items: flex-start;
+         padding-top: 50px;
+         padding-left: 40px;
+     } 
+    
+     .primary-menu .menu li{ 
+        display: none;
+     }
+     .secondary-menu .menu li{ 
+        display: none;
+     }
+     .nav-menu{
+        margin-top: -110px;
+        margin-left: 10px;
+     }
+    .dropdown .icon-menu img{
+        display: block;
+        margin-top: -50px;
+        margin-right: 40px;
+      }
+      .dropdown:hover{
+        display: flex;
+        flex-direction: column;
+        margin-left: 200px;
+      }
+      /* ketika class dropdown di hover, maka class menu menjadi tampil */
+      .dropdown:hover .primary-menu li{
+        display: flex;
+      }     
 
+}
 
 
 body{
@@ -8,11 +45,21 @@ body{
     font-family: 'Rubik';
 }
 
-.navbar{
+nav{
     width: 100%;
     box-shadow: 1px 1px 10px #cccccc;
     display: flex;
 }
+.icon-menu{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+ 
+  .icon-menu img{
+    width: 50px;
+    display: none;
+  }
 .logo{
     width: 30%;
     display: flex;
@@ -29,6 +76,7 @@ body{
     width: 40%;
     display: flex;
     justify-content: center; 
+    flex-direction: row;
 }
 .primary-menu .menu{
     display: flex;
@@ -42,6 +90,17 @@ body{
     cursor: pointer;
 }
 .primary-menu .menu li:hover {
+    color: #6A4029;
+    font-weight: 700;
+}
+.primary-menu .menu li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: #4F5665;
+    cursor: pointer;
+}
+.primary-menu .menu li a:hover {
     color: #6A4029;
     font-weight: 700;
 }

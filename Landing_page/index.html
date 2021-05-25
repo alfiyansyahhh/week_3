@@ -7,10 +7,12 @@
     <title>landing_page</title>
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/mediascreen.css">
 </head>
 <body>
 <nav>
-      <div class="container">          
+       
             <div class="logo"> 
                        <svg width="30" height="33" viewBox="0 0 30 33" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <rect width="30" height="33" fill="url(#pattern0)"/>
@@ -25,30 +27,32 @@
                     Coffee Shop
                 </h1> 
             </div>
+            
             <div class="primary-menu"> 
             <ul class="menu">
                 <li>Home</li>
-                <li>Produk</li>
+                <li><a href="file:///C:/Users/muham/Documents/fazztrack/tugas%20fazztrack/week_3/produk/index.html">Produk</a></li>
                 <li>Your Cart</li>
                 <li>History</li>
             </ul>
             </div>
+       
             <div class="secondary-menu"> 
                 <ul class="menu">
                     <li>
-                        <a href="#" class="login"> Login</a>
+                        <a href="file:///C:/Users/muham/Documents/fazztrack/tugas%20fazztrack/week_3/Login/index.html" class="login"> Login</a>
                     </li>
                     <li>
-                        <a href="#" class="signup">Signup</a>
+                        <a href="file:///C:/Users/muham/Documents/fazztrack/tugas%20fazztrack/week_3/Signup/index.html" class="signup">Signup</a>
                     </li>
                 </ul>
             </div>
-        </div>
+   
 </nav>
 
 <main>
     <aside>
-        <div class="kiri">
+        <div class="left">
             <h1>
                 Start Your Day with Coffee and Good Meals
             </h1>
@@ -57,7 +61,7 @@
             </p>
             <button>Get Started</button>
         </div>
-        <div class="kanan">
+        <div class="right">
             <div class="s">
             <form>
                 <img src="images/search.png"> 
@@ -67,8 +71,8 @@
         </div>
     </aside>
     <section>
-        <div class="tengah">
-            <nav>
+        <div class="center">
+            <div class="nav">
                 <div class="nav1">
                     <svg width="55" height="56" viewBox="0 0 55 56" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect y="0.0493164" width="55" height="55" rx="27.5" fill="#FFBA33"/>
@@ -93,13 +97,13 @@
                     <strong>80+</strong>
                     <p>Customers</p>
                  </div>   
-            </nav>
+                </div>
         </div>
         <div class="content">
-            <div class="kiri">
+            <div class="left">
                 <img src="images/teamwork.png">
             </div>
-            <div class="kanan">
+            <div class="right">
                 <h1>
                     We Provide Good Coffee and Healthy Meals
                 </h1>
@@ -116,6 +120,61 @@
         </div>
     </section>
 </main>
+
+<footer>
+    <div class="left">
+        <div class="logo-footer">
+            <svg width="30" height="33" viewBox="0 0 30 33" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <rect width="30" height="33" fill="url(#pattern0)"/>
+                <defs>
+                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                <use xlink:href="#image0" transform="translate(-0.05) scale(0.00859375 0.0078125)"/>
+                </pattern>
+                <image id="image0" width="128" height="128" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABdFBMVEUAAABtSSRrPypgQCBVVStqQClrPyhqQCmAQEBrQClqQCpqPylpQClqQClqQClqQClpQClqQCprQShqPylpQShqQSlrPylpPypqQCtqPixtQCSAAABqQClrPylqQClqQClqQClqQSlrQSppPyhpQShqPyhrPyhpQClmPSlqQCsAAABqPylqQClqQCpqQClqQChqQClpQSlqPylqQSlrPyloQChpPypiOydpRCZqQShrPylrQiloPippPC1wQDBqQClpQChqQClqQClqQClpQClqQSlrQSppPyppQStqPyhsPihoQClqQClqQClqQClqQChqQChrQSlpQSlqPylqQSlrPylrQSlpPypqPixsQCZxORxqQClmTTNqQClqQClqQClqQClqQSlrPypmQCZqQSlrPyprQSppPypqPydsQChsPidrQSpqPytsQCdtPSRqQClqQClqQClpQClqQCprQShqPyhpQShqPylqQCtqQClqQCkAAAD9aLYqAAAAenRSTlMAB5kIBru95ASIk313+9/ev76enX5eXT08HRwC+Pnb2rqaenlaWTk4GRgB9fbX1re2lpV2dSBVDSJSUTIxERDw0M+vro+Obm1OTS0s7OvLyquqiolqaUpJKSgJ/gro58fGpqUUgoFiYUFAIVY1NBXz09KzspKRcnEw73lu0eUAAAABYktHRACIBR1IAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH5AoTBg0nXTSkcAAAAolJREFUeNrt2+kz1XEUx/Fv1hspS6EsyRJRQnFxLVGWQhSV0m6Lsofy1zPTgziTued8z+fM9OB8Hhvn9eDOb+783nNDwO3CUbplAK/9Y5kOcIADHKAAZGUDlpMWkHvqr7OEePgyHeAABzjAAQ5wgAMc8H8BEhf/Ls/uaN7Jv8+/9GeJc78hJwqs7hecf/TMLlsBrvDuh0IrQBETUGwFKGECrloB8pmAa1aAUiagzApQzgRctwLcYAIqKm3uV1UwAaHaBnCTez9k2wBq2IBbNgD+C5paG0AdG1BvA2hgA27bABrZgCYbwB02oLnF4v7dZjYg3LMAtPLvh/sWgDYBoN0C0CEAPLAAPBQAOrsM1ikA+Hy+kOyGLykC9OCfQ70iQAoP6BMB+vGAAdmHYBB9f1D4KXyEBgwJAcNowGMh4AkaMCIEjKIBY0LAOBrwVAh4hgZMCAFJNED2JD7ZJPb+lPR+eI4FTIsBM1jACzHgJRYwKwbMYQGvxIDXWMAbMWAeC3grBrxbQN5feC8GhA9IwEf5/fAJCfgcAfiCBHyNACwiv5MvRgB8Pl9I4d5PpaIAS7jn0HIUYAUHWI0CfMMB1qIA6zhA3DtKXMbnZns6WMbnZns6WMbnZns6WMbnZns6WMbnZns6WMbnZns6WMbnZns6WMbnZns6VMbnZ3s6UMbnZ3s6UMaviQaAMn787ypAGZ+f7elAGZ+f7elAGZ+f7elAGZ+f7ekwGV+S7ekgGV+S7ekgGb9NAYBkfEm2p4NkfEm2p/uOAHQpAD8QgA0FYBMBUL2e2dLf39LcD9t6wI4KsKsH7KkAP/WAfRXgQA84VAEAGV+W7en69IBfKgAg4wuzPd1v7f102f4YHafoQNyAPE4AAAAldEVYdGRhdGU6Y3JlYXRlADIwMjAtMTAtMTlUMDY6MTM6MzkrMDA6MDCibWEHAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIwLTEwLTE5VDA2OjEzOjM5KzAwOjAw0zDZuwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAAASUVORK5CYII="/>
+                </defs>
+            </svg> 
+        <h1>
+            Coffee Shop
+        </h1> 
+        </div>            
+        <p class="ket-footer">Coffee Shop is a store that sells some good meals, and especially coffee. We provide high quality beans</p>
+        <div class="sosmed">
+            <div class="icon-sosmed">
+                <img src="images/fb.png"> 
+            </div>  
+            <div class="icon-sosmed">
+                <img src="images/twt.png"> 
+            </div>  
+            <div class="icon-sosmed">
+                <img src="images/ig.png"> 
+            </div>  
+        </div>
+        <p class="copyright">©2020CoffeeStore</p>
+    </div>
+    <div class="right-footer">
+        <div class="footer-right">
+            <div class="icon-right">
+                <ul>
+                    <li>Product</li>
+                    <li>Download</li>
+                    <li>Pricing</li>
+                    <li>Locations</li>
+                    <li>Countries</li>
+                    <li>Blog</li>
+                </ul>
+            </div>  
+            <div class="icon-right">
+                <ul>
+                    <li>Language</li>
+                    <li>FAQ</li>
+                    <li>Abaout Us</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms of Service</li>
+                </ul>
+            </div>    
+        </div>
+    </div>
+</footer>
 </body>
 </html>
 

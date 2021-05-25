@@ -1,21 +1,41 @@
 @media screen and (max-width: 576px){
     footer{
         display: none !important;
+       
     }
-
-
-} 
+    .left{
+        display: none;
+    }
+}
 
 footer{
     display:flex;
     background: #F8F8F8;
+   
 }
-
 .left{
     width: 50%;
     margin: 150px;
     margin-left: 200px;
 }
+.logo-footer{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.logo-footer h1{
+    width: 50%;
+    display: flex;
+    font-size: 20px;
+    margin-left: 10px;
+    color:black;
+    margin-top: 80px;
+    
+}
+
+
 .left .sosmed {
     display: flex;
     width: 50%;
@@ -23,11 +43,10 @@ footer{
 }
 
 .left .sosmed .icon-sosmed {
-    margin: 20px;
+    margin: 40px;
     width: 10px;
 }
  .sosmed .icon-sosmed:hover {
-    color: #0B132A;
     font-weight: 700;
     cursor: pointer;
 }
@@ -41,15 +60,28 @@ footer{
     font-size: 16px;
     line-height: 30px;
     color: #4F5665;
-    margin-left: 16px;
+    margin-left: 50px;
+    margin-top: -70px;
 }
 
-.right{
+.left .copyright{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #AFB5C0;
+    margin-left: -160px;
+}
+
+.right-footer{
     width: 50%;
-    margin-left: 400px;
+    margin-left: 200px;
+    margin-top: 110px;
 }
 
-.right .footer-right{
+.right-footer .footer-right{
     display: flex;
     font-family: Rubik;
     font-style: normal;

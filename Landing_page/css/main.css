@@ -3,23 +3,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
+@media screen and (max-width: 576px){
+        .center{
+            display: none;
+        }    
+       aside{
+        
+       } 
+       .left h1{
+
+       }
+       .content{
+           flex-direction: column;
+       }
+       .content .left{
+
+       }
+       .content .right{
+           
+       }
+}
+
 main{
     display:flex;
     flex-direction: column;
-    /* background-color: grey; */
-    background-image: url('../images/background.png');
-    background-position: center;
-    background-size: cover;
+   
+   
 }
 
 aside{
     display: flex;
-    width: 100%;
-    height: 645px;
+    /* width: 100%;
+    height: 645px; */
+    height: 50vr;
+    background-image: url('../images/background.png');
+    background-position: center;
+    background-size: cover;
 
 }
 
-.kiri h1{
+.left h1{
     width: 570px;
     height: 140px;
     font-family: Rubik;
@@ -29,7 +52,7 @@ aside{
     line-height: 70px;
     color: #FFFFFF;
 }
-.kiri p{
+.left p{
     width: 555px;
     height: 90px;
     font-family: Rubik;
@@ -41,7 +64,7 @@ aside{
 
 }
 
-.kiri button{
+.left button{
     width: 250px;
     height: 60px;
     background: #FFBA33;
@@ -62,11 +85,7 @@ button:hover{
     cursor: pointer;
 }
 
-.kanan{
-    margin-left: 500px;
-}
-.s{
-    margin: 10px auto;
+.right .s{
     background: white;
     color: black;
     font-size: 17px;
@@ -111,37 +130,37 @@ section{
     margin-top: 90px;
 }
 
-section .tengah{
+section .center{
     position: absolute;
     width: 1560px;
     height: 200px;
     background: #FFFFFF;
     border-radius: 10px;
     margin-left: 180px;
-    margin-top: -100px;
+    margin-top: -180px;
     box-shadow: 0px 0px 9px #cccccc;
 }
 
-.tengah nav{
+.center .nav{
     display: flex;
     margin: 60px;
     margin-left: -50px;
 }
 
-.tengah nav .nav1{
+.center .nav .nav1{
     display:flex;
     margin: 20px;
     padding: 1px 190px;
     justify-content: center;    
 }
 
-.tengah nav .nav1 strong{
+.center .nav .nav1 strong{
     margin-left: 20px;
     margin-top: 1px;
     font-size: 30px;
 }
 
-.tengah nav .nav1 p{
+.center .nav .nav1 p{
     margin-left: -50px;
     margin-top: 40px;
 }
@@ -150,17 +169,17 @@ section .tengah{
     display: flex;
 
 }
-.content .kiri{
+.content .left{
     margin-top: 250px;
 
 }
-.content .kanan{
+.content .right{
     margin: 0 60px;
     padding: 210px;
 
 }
 
-.content .kanan h1{
+.content .right h1{
     width: 432px;
     height: 100px;
     font-family: Rubik;
@@ -171,23 +190,18 @@ section .tengah{
     color: #0B132A;
 }
 
-.content .kanan p{
+.content .right p{
     width: 427.88px;
     height: 60px;
-
-
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 30px;
-
-
-
     color: #4F5665;
 }
 
-.content .kanan ul{
+.content .right ul{
     height: 50px;
     font-family: Rubik;
     font-style: normal;
@@ -199,12 +213,12 @@ section .tengah{
     margin-top: 50px
 }
 
-.content .kanan ul li img{
+.content .right ul li img{
     margin-top: 10px;
     margin-left: -35px;  
 }
 
-.content .kanan ul li p{
+.content .right ul li p{
     margin-top: -35px;
-    margin-left: 15px;
+    margin-left: 1px;
 }

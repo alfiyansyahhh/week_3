@@ -1,9 +1,34 @@
+@media screen and (max-width: 576px){
+    /* navbar */
+    nav{
+        flex-direction: column;
+    }  
+    .logo{
+        text-align: flex-start;
+        align-items: flex-start;
+  
+        padding-left: 30px;
+    } 
+   
+    .primary-menu .menu{ 
+      flex-direction: column !important;
+    }
+    .signup{
+        margin-left: 70px; 
+     
+    }
+ 
+  
+
+}
+
+
 body{
     margin: 0px;
     padding: 0px;
     font-family: sans-serif;
 }
-.container{
+nav{
     width: 100%;
     background-color: white;
     box-shadow: 1px 1px 10px #cccccc;
@@ -15,6 +40,11 @@ body{
     align-items: center;
     justify-content: center; 
 }
+.icon-menu img{
+    width: 50px;
+    display: none;
+  }
+
 
 .logo h1{
     font-size: 20px;
@@ -32,7 +62,7 @@ body{
     display: flex;
     list-style-type: none;
 }
-.primary-menu .menu li{
+.primary-menu .menu li {
     margin: 15px;
     font-size: 20px;
     font-weight: 400;
@@ -40,6 +70,17 @@ body{
     cursor: pointer;
 }
 .primary-menu .menu li:hover {
+    color: #6A4029;
+    font-weight: 700;
+}
+.primary-menu .menu li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: #4F5665;
+    cursor: pointer;
+}
+.primary-menu .menu li a:hover {
     color: #6A4029;
     font-weight: 700;
 }
