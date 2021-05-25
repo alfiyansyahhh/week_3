@@ -4,11 +4,12 @@
 
 main{
     display: flex;
+    height: 1290px;
 }
 
 aside {
     width: 30%;
-    border-right: 0.5px solid #9F9F9F;
+    border-right: 1px solid #cccccc;    
 }
 
 .card-nav1{
@@ -72,8 +73,12 @@ aside {
     padding: 10px 10px;
     border-radius: 20px;
     text-align: center;
-
 }
+
+.cupon:hover{
+    background-color:bisque;
+}
+
 .cupon img{
     grid-area: gambar;
     margin-left: 10px;
@@ -120,14 +125,25 @@ aside {
     font-size: 17px;
 }
 
+.apply:hover{
+    background-color: #FFBA33;
+    color: #6A4029;
+    cursor: pointer;
+}
 
 
 #orange{
     background-color: #F5C361;
 }
+#orange:hover{
+    background-color:bisque;
+}
 
 #coklat{
     background-color: #C59378;;
+}
+#coklat:hover{
+    background-color:bisque;
 }
 
 .card-nav3{

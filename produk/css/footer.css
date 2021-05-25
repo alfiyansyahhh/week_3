@@ -6,7 +6,8 @@ footer{
 
 .kiri{
     width: 50%;
-    margin: 90px;
+    margin: 150px;
+    margin-left: 200px;
 }
 .kiri .sosmed {
     display: flex;
@@ -15,7 +16,6 @@ footer{
 }
 
 .kiri .sosmed .icon-sosmed {
-    padding-left: 15px;
     margin: 20px;
     width: 10px;
 }
@@ -26,7 +26,7 @@ footer{
 }
 
 .kiri .ket-footer{
-    width: 40%;
+    width: 50%;
     justify-content: center;
     font-family: Rubik;
     font-style: normal;
@@ -34,12 +34,12 @@ footer{
     font-size: 16px;
     line-height: 30px;
     color: #4F5665;
-    margin-left: 40px;
+    margin-left: 16px;
 }
 
 .kanan{
     width: 50%;
-    margin: 20px; 
+    margin-left: 400px;
 }
 
 .kanan .footer-kanan{
@@ -50,19 +50,22 @@ footer{
     font-size: 20px;
     line-height: 50px;
     color: #4F5665;
+    margin-top: 95px;
 }
 
-.kanan .footer-kanan .icon-kanan{
-    margin: 40px;
-}
 
 .icon-kanan li{
+    margin-left: 50px;
+    height: 50px;
     list-style-type: none;
+    justify-content: center;
+   
 }
 
 .icon-kanan li:hover {
     color: #0B132A;
     font-weight: 700;
     cursor: pointer;
+
 }
 

@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
 main{
@@ -6,16 +9,19 @@ main{
 }
 
 aside{
-    width: 50%;
-    background-color: aqua;
-    background-image: url(img/background.png);
-    height: 1000px;
-  
+    width: 40%;
+    height: 1100px;
+    background-image: url("../img/background.png");
+    background-position: center;
+    background-size: cover;
+    margin-left: -9px;
+    margin-top: -8px;
 }
 
+
 section{
-    width: 50%;
-    margin-top: 50px;
+    width: 60%;
+    margin-top: 20px;
 }
 
 /* navbar */
@@ -65,8 +71,7 @@ section{
     width: 150px;
     height: 45px;
     background: #FFBA33;
-    border-radius: 50px;
-    
+    border-radius: 50px;    
     font-family: Rubik;
     font-style: normal;
     font-weight: 500;
@@ -89,7 +94,7 @@ section{
 .kotak_signup{
     font-family: 'Rubik';
     width: 505px;
-    height: 75px;
+    height: 15px;
     background: white;
     margin: 80px auto;
     padding: 30px 20px;
@@ -116,7 +121,7 @@ form h1{
     color: #6A4029;
     padding-bottom: 90px;
     margin-top: -50px;
-
+    margin-bottom: -30px;
 }
 .kotak_signup label{
     font-size: 20px;
@@ -151,6 +156,25 @@ form h1{
     grid-area: bawah;
 }
 
+.tombol h3{
+
+width: 232px;
+height: 25px;
+
+
+font-family: Rubik;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+text-decoration-line: underline;
+
+color: #9F9F9F;
+
+}
+.tombol h3:hover{
+    color: #6A4029;
+}
 .signup{
     margin: 10px auto;
     background: #FFBA33;
